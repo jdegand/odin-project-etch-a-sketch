@@ -1,0 +1,21 @@
+#container {
+  align-items: center;
+  background-color: white;
+  z-index: 1;
+  border: 1px solid black;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.square {
+  background-color: white;
+}
+
+.black {
+  background-color: black;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 10px;
+}
