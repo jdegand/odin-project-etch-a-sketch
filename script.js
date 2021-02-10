@@ -10,7 +10,7 @@ function removeAllChildNodes(parent) {
 
 function createGrid(size) {
   let area = size * size;
-  let blockSize = 960 / size;
+  let blockSize = 600 / size;
   container.style.gridTemplateColumns = `repeat(${blockSize}px, auto-fit)`;
   for(let i = 1; i <= area; i++ ){
       let block = document.createElement('div');
